@@ -15,5 +15,5 @@ export const options = {
     }),
   ],
   adapter: PrismaAdapter(prisma),
-//   secret: process.env.SECRET,
+  secret: process.env.SECRET,
 };
